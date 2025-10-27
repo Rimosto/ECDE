@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Naivasha ECDE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' };</script>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+
+  <nav class="bg-green-700 text-white p-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Naivasha ECDE</div>
+    <div class="md:hidden flex items-center space-x-2">
+      <button id="darkToggle" class="px-2 py-1 bg-green-900 rounded">🌙</button>
+      <button id="menuBtn" class="focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+    <ul id="menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-2 md:mt-0">
+      <li><a href="index.html" class="hover:text-green-300">Home</a></li>
+      <li><a href="about.html" class="hover:text-green-300">About</a></li>
+      <li><a href="forms.html" class="hover:text-green-300">Forms</a></li>
+      <li><a href="reports.html" class="hover:text-green-300">Reports</a></li>
+      <li><a href="contact.html" class="hover:text-green-300">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="max-w-4xl mx-auto my-12 p-6 bg-white dark:bg-gray-800 rounded shadow">
+    <h2 class="text-2xl font-semibold mb-4">About ECDE</h2>
+    <p>The Early Childhood Development Education program in Naivasha focuses on nurturing young children, ensuring they receive proper educational resources, guidance, and support. We monitor children's progress through monthly statistical data capture and engage with parents and teachers to improve learning outcomes.</p>
+    <ul class="list-disc pl-6 mt-4 space-y-2">
+      <li>Promote quality early childhood education</li>
+      <li>Ensure accurate data collection and reporting</li>
+      <li>Support teachers and parents in child development</li>
+    </ul>
+  </section>
+
+  <footer class="bg-green-700 text-white text-center py-6">
+    &copy; 2025 Naivasha Sub-County ECDE. All rights reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
